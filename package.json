@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-pathdata",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "description": "A gatsby plugin that extracts info from the path of a file",
   "author": "Ole Martin Ruud <barskern@outlook.com>"
