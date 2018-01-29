@@ -3,5 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "description": "A gatsby plugin that extracts info from the path of a file",
-  "author": "Ole Martin Ruud <barskern@outlook.com>"
+  "repository": "github:barskern/gatsby-plugin-pathdata",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "pathdata"
+  ],
+  "bugs": {
+    "url": "https://github.com/barskern/gatsby-plugin-pathdata/issues",
+    "email": "barskern@outlook.com"
+  },
+  "peerDependencies": {
+    "gatsby": "^1.9.172"
+  },
+  "author": "Ole Martin Ruud <barskern@outlook.com> (https://barskern.github.io/)",
+  "license": "MIT"
 }
