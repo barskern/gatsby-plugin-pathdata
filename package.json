@@ -14,7 +14,7 @@
     "email": "barskern@outlook.com"
   },
   "peerDependencies": {
-    "gatsby": "^1.9.172"
+    "gatsby": "1.x"
   },
   "author": "Ole Martin Ruud <barskern@outlook.com> (https://barskern.github.io/)",
   "license": "MIT"
