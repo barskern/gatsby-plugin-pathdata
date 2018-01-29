@@ -4,7 +4,7 @@ A plugin for [gatsby](https://www.gatsbyjs.org)  which loads data from the path 
 
 ## Inspiration
 
-This plugin was inspired by the situation mentionned in the introduction. I wanted to make a blog with [gatsby](https://www.gatsbyjs.org), but I know it can quickly get messy if I define a date in the name of a file and in the frontmatter. I also wanted to be able to use the name of the file as the path, so that the frontmatter of the file only contained information that was relevant to the article.
+This plugin was inspired by the situation mentioned in the introduction. I wanted to make a blog with [gatsby](https://www.gatsbyjs.org), but I know it can quickly get messy if I define a date in the name of a file and in the frontmatter. I also wanted to be able to use the name of the file as the path, so that the frontmatter of the file only contained information that was relevant to the article.
 
 ## Installation
 
