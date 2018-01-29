@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-pathdata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "A gatsby plugin that extracts info from the path of a file",
   "repository": "github:barskern/gatsby-plugin-pathdata",
