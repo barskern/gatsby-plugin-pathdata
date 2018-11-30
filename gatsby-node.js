@@ -7,14 +7,14 @@ exports.onCreateNode = (
 
   if (type !== (options.matchNodeType)) return
 
-  options.extract.forEach(extractor => {
-    const result = node.fileAbsolutePath.replace(extractor.selector, extractor.replacer)
+  options.extract.forEach(({ name, selector, replacer }) => {
+    const value = node.fileAbsolutePath.replace(selector, replacer)
 
-    if (result !== null && result !== node.fileAbsolutePath) {
+    if (value !== null && value !== node.fileAbsolutePath) {
       actions.createNodeField({
         node,
-        name: extractor.name,
-        value: result
+        name,
+        value,
       })
     }
   })
